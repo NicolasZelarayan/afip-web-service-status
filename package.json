@@ -1,0 +1,16 @@
+{
+  "name": "afip-server-status-api",
+  "version": "1.0.0",
+  "description": "A REST API to check the server status using the Afip SDK.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@afipsdk/afip.js": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
